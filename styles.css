@@ -1,0 +1,156 @@
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: groove 10px red;
+}
+.left {
+    width: auto;
+    background-color:  #666699;
+    border: double black 10px;
+}
+.right {
+    width: 50%;
+    background-color: #2e5cb8;
+    border: double black 10px;
+     text-align: center;
+}
+.body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+.gw{
+    border: ridge 10px black;
+}
+p {
+    padding: 20px;
+    margin:auto;
+    font-family: 'Merriweather', serif;
+}
+.sm {
+    border: groove 2px purple;
+    text-shadow: 1px 1px 1px black;
+}
+li {
+    padding:10px;
+    font-family: 'Slabo 27px', serif;
+}
+h1 {
+    color:white;
+}
+.button:hover {
+    color:white;
+    background-color: red;
+    border: solid 1px black;
+    border-radius: 120px;
+    padding: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button {
+    color:white;
+    background-color: red;
+    border: solid 1px black;
+    border-radius: 120px;
+    padding: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#my_centered_buttons{
+    display: flex; 
+    justify-content: center; 
+}
+.button:hover {
+    background-color: #c0c0c0; /* Silver*/
+    color: white;
+}
+.vamp {
+    color:white;
+    padding: 2px;
+    display:flex;
+    justify-content: space-around;
+    background-color:grey;
+    border: inset blue 3px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px #000000;
+}
+.undies {
+     text-shadow: 0 0 3px #6600ff;
+     padding: 3px;
+     margin: auto;
+     border: solid black 1px;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+}
+.mcr {
+    display:flex;
+    justify-content:center;
+    width: 200px;
+    height:200px;
+}
+.rt{
+    display:flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+.mw {
+    display:flex;
+    width: 200px;
+    height: 200px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: grey;
+  justify-content:space-between;
+  flex-direction:row;
+  align-items: stretch;
+  flex-grow: 8;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.gallery {
+    border: groove black 4px;
+}
+.gw:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* here is the new footer class */
+.footer {
+width:200px;
+
+}
